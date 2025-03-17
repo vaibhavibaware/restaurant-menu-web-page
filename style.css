@@ -1,0 +1,263 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #1a2b47;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Underline Effect */
+h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: gold;
+    margin: 8px auto;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    margin: 20px 0;
+}
+
+.filter-btn {
+    border: 2px solid gold;
+    background: transparent;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    color: #1a2b47;
+}
+
+.filter-btn:hover {
+    background: gold;
+    color: white;
+}
+
+/* Menu Layout */
+.menu {
+    width:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-left:25px;
+
+}
+
+/* Menu Item Styling */
+.menu-item {
+    display: flex;
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    align-items: center;
+}
+
+/* Menu Item Image */
+.menu-item img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Menu Item Information */
+.menu-info {
+    text-align: left;
+}
+
+.menu-info h2 {
+    font-size: 1.2rem;
+    color: #1a2b47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-info .price {
+    font-size: 1.1rem;
+    color: gold;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* Description */
+.menu-info p {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item img {
+        margin-bottom: 10px;
+    }
+}
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #1a2b47;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Underline Effect */
+h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: gold;
+    margin: 8px auto;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    margin: 20px 0;
+}
+
+.filter-btn {
+    border: 2px solid gold;
+    background: transparent;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    color: #1a2b47;
+}
+
+.filter-btn:hover {
+    background: gold;
+    color: white;
+}
+
+/* Menu Layout */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Menu Item Styling */
+.menu-item {
+    display: flex;
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    align-items: center;
+}
+
+/* Menu Item Image */
+.menu-item img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* Menu Item Information */
+.menu-info {
+    text-align: left;
+}
+
+.menu-info h2 {
+    font-size: 1.2rem;
+    color: #1a2b47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-info .price {
+    font-size: 1.1rem;
+    color: gold;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+/* Description */
+.menu-info p {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu-item img {
+        margin-bottom: 10px;
+    }
+}
